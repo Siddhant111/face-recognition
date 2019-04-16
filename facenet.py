@@ -167,7 +167,7 @@ def who_is_it(image, database, model):
             min_dist = dist
             identity = name
     
-    if min_dist > 0.75:
+    if min_dist > 0.60:
         return None
     else:
         return str(identity)
